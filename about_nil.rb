@@ -33,6 +33,14 @@ class AboutNil < Neo::Koan
     # or
     #    obj == nil
     # Why?
+    # 
+    # A:
+    # They both check if the current obj is a nil object
+    # and will return true if that's the case. The latter is
+    # a comparison, while the first is checking if the obj is 
+    # the actual object nil. 
+    # Implementing one or the other would be whichever
+    # helps make the code clearer/more readable 
   end
 
 end
